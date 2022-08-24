@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edb8eb7125ea44f68bbe616b44fa9bc, type: 3}
+  m_Name: Color Palette
+  m_EditorClassIdentifier: 
+  colorDesigns:
+  - keyChar: //
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0, g: 0.10323961, b: 0.10323961, a: 1}
+    textAlignment: 4
+    fontStyle: 3
+  - keyChar: ///
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.15211499, g: 0.5, b: 0.012578577, a: 1}
+    textAlignment: 4
+    fontStyle: 1
+  - keyChar: '#'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.5058824, g: 0.84705883, b: 0.81960785, a: 1}
+    textAlignment: 4
+    fontStyle: 1
+  - keyChar: '@'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.8207547, g: 0.6350863, b: 0, a: 1}
+    textAlignment: 4
+    fontStyle: 1
+  - keyChar: $
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.5903926, g: 0.12967247, b: 0.8867924, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#001'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.12941174, g: 0.45594153, b: 0.8862745, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#002'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.03177283, g: 0.2737057, b: 0.5943396, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#003'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.1309317, g: 0.023733163, b: 0.9433962, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#004'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.06710568, g: 0.8207547, b: 0.28243405, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#005'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.21390145, g: 0.6698113, b: 0.029488485, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#006'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 0.12682113, g: 0.4056604, b: 0.014032231, a: 1}
+    textAlignment: 4
+    fontStyle: 0
+  - keyChar: '#007'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 1, g: 0.8232664, b: 0.006289184, a: 1}
+    textAlignment: 4
+    fontStyle: 0

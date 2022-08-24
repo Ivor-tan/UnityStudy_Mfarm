@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b4683424147d14fa9e42fe92b1cb54, type: 3}
+  m_Name: SceneRouteDataList_SO
+  m_EditorClassIdentifier: 
+  sceneRouteList:
+  - fromSceneName: 01Field
+    goToSceneName: 02Home
+    scenePathList:
+    - sceneName: 02Home
+      fromGridCell: {x: 13, y: -15}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 01Field
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: -2, y: -9}
+  - fromSceneName: 02Home
+    goToSceneName: 01Field
+    scenePathList:
+    - sceneName: 01Field
+      fromGridCell: {x: -2, y: -9}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 02Home
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 13, y: -15}
+  - fromSceneName: 01Field
+    goToSceneName: 03Stall
+    scenePathList:
+    - sceneName: 03Stall
+      fromGridCell: {x: 2, y: -14}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 01Field
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 40, y: -18}
+  - fromSceneName: 03Stall
+    goToSceneName: 01Field
+    scenePathList:
+    - sceneName: 01Field
+      fromGridCell: {x: 40, y: -18}
+      gotoGridCell: {x: 99999, y: 99999}
+    - sceneName: 03Stall
+      fromGridCell: {x: 99999, y: 99999}
+      gotoGridCell: {x: 2, y: -14}

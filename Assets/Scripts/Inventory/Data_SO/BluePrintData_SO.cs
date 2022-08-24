@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "BluePrintData_SO", menuName = "Inventory/BluePrintData_SO")]
+public class BluePrintData_SO : ScriptableObject
+{
+    public List<BluePrintDetails> bluePrintDataList;
+
+    public BluePrintDetails GetBluePrintDetails(int itemID)
+    {
+        return bluePrintDataList.Find(b => b.ID == itemID);
+    }
+}
+
+[System.Serializable]
+public class BluePrintDetails
+{
+    public int ID;
+    public InventoryItem[] resourceItem;
+    public GameObject buildPrefab;
+}
